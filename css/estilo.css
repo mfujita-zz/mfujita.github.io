@@ -37,5 +37,21 @@ a { color: #E3AE57; }
 .github { background-image: url('../img/github.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
 .facebook { background-image: url('../img/facebook.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
 .devcard { background-image: url('../img/projetos.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
+
+.projetos{ width: 700px; margin: 0 auto; text-align: left; }
+.projetos li { margin-bottom: 7px; margin-top: 7px; padding-left: 24px; background-image: url('../img/projetos.png'); background-repeat: no-repeat; }
+
+.projetos li:hover { color: #e35757 }
+
+a:hover{color: #e35757}
+
+.competencias ul {width: 700px; margin: 0 auto }
+.competencias li {display: inline-block; width: 150px; padding: 8px; margin: 3px; }
+
+.dev {background-color: #16a085; border: 2px solid #16a085;}
+.dev:hover{background-color: #1abc9c;}
+
+.engine{background-color: #27ae60 }
+
 	
 
