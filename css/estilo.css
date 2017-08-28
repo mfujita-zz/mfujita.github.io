@@ -14,10 +14,9 @@ h2, h3, h4, h5, h6 {
 }
 
 body {	
-
 	font-family: 'Padauk', sans-serif;	
 	font-size: 30px;
-	color: DC3D24;
+	color: #DC3D24;
 	margin-top: 5px;
 	margin-bottom: 15px;
 }
@@ -27,15 +26,16 @@ body {
 	margin: auto;
 }
 
-a { color: #E3AE57 }
+a { color: #E3AE57; }
 
 .redes-sociais li {display: inline-block; margin: 0 5px; }
 .redes-sociais li a {display: inline-block; margin: 0 5px; }
 .redes-sociais span { width: 48px; height: 48 px; background-repeat: no-repeat; overflow: hidden; text-indent: 700px; display: inline-block; }
 
-.linkedin { background-image: url('../img/linkedin.png'); }
-.github { background-image: url('../img/github.png'); }
-.facebook { background-image: url('../img/facebook.png'); }
-.devcard { background-image: url('../img/project.png'); }
+.linkedin { background-image: url('../img/linkedin.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
+.linkedin:hover { -webkit-filter: grayscale(0%); filter: grayscale(0%); } 
+.github { background-image: url('../img/github.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
+.facebook { background-image: url('../img/facebook.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
+.devcard { background-image: url('../img/projetos.png'); -webkit-filter: grayscale(100%); filter: grayscale(0%); }
 	
 
